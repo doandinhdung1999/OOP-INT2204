@@ -66,14 +66,14 @@ public class Week3Task1 {
 
 
 public static void main(String[] args) {
-    
+        Scanner scan = new Scanner(System.in);
         System.out.print("Nhập số nguyên dương a = ");
-        int a = scanner.nextInt();
+        int a = scan.nextInt();
         System.out.print("Nhập số nguyên dương b = ");
-        int b = scanner.nextInt();
+        int b = scan.nextInt();
         
         System.out.print("Nhập số nguyên dương n = ");
-        int n = scanner.nextInt();
+        int n = scan.nextInt();
         
         System.out.println( gcd(a, b)); 
         System.out.println(fibonacci(n));
